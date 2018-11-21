@@ -1,21 +1,22 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class Screen extends Component {
-    render() {
-        return(
-            <div style={styles}>
-                <h1>Hi, My Name is Ryan</h1>
-                <h3>I'm a FullStack Javascript Developer</h3>
-            </div>
-        )
+
+//This component is a responsive component that scales to the current viewport size
+
+const Screen = (props) => {
+
+    const styles = {
+        minHeight: '100vh',
+        backgroundColor: `${props.color}`,
+        display: 'flex',
+        flexDirection: 'column'
     }
-}
 
-const styles = {
-    minHeight: '100vh',
-    backgroundColor: 'white',
-    display: 'flex',
-    flexDirection: 'column'
+    return(
+        <div style={styles}>
+            {props.children}
+        </div>
+    )
 }
 
 export default Screen
