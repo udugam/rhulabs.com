@@ -7,9 +7,14 @@ const Screen = (props) => {
 
     const styles = {
         minHeight: '100vh',
-        backgroundColor: `${props.color}`,
+        backgroundColor: `${props.backgroundColor}`,
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        color: `${props.textColor}`,
+        borderRadius: '10px',
+        borderStyle: 'solid',
+        borderWidth: '5px',
+        borderColor: 'white'
     }
 
     return(
