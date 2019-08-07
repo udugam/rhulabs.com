@@ -10,11 +10,7 @@ const Screen = (props) => {
         backgroundColor: `${props.backgroundColor}`,
         display: 'flex',
         flexDirection: 'column',
-        color: `${props.textColor}`,
-        borderRadius: '10px',
-        borderStyle: 'solid',
-        borderWidth: '5px',
-        borderColor: 'white'
+        color: `${props.textColor}`
     }
 
     return(
