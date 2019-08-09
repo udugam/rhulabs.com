@@ -8,8 +8,6 @@ const Screen = (props) => {
     const styles = {
         minHeight: '100vh',
         backgroundColor: `${props.backgroundColor}`,
-        display: 'flex',
-        flexDirection: 'column',
         color: `${props.textColor}`
     }
 
