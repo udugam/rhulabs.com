@@ -4,7 +4,9 @@ const HeaderLink = (props) => {
 
     const styles = {
         color: `${props.textColor}`,
-        float: 'right'
+        float: 'right',
+        fontSize: '20px',
+        paddingRight: '20px'
     }
 
     return(
