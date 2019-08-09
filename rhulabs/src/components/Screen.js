@@ -9,8 +9,8 @@ const Screen = (props) => {
         minHeight: '100vh',
         backgroundColor: `${props.backgroundColor}`,
         color: `${props.textColor}`,
-        paddingLeft: '100px',
-        paddingRight: '100px'
+        paddingLeft: '5vw',
+        paddingRight: '5vw'
     }
 
     return(
