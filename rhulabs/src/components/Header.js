@@ -5,15 +5,21 @@ import HeaderLink from './HeaderLink'
 const Header = (props) => {
 
     const styles = {
-        paddingTop: '35px'
+        container: {
+            paddingTop: '35px',
+            display: 'flex',
+            justifyContent: 'space-between'
+        }
     }
 
     return(
-        <div style={styles}>
+        <div style={styles.container}>    
             <Logo/>
-            <HeaderLink linkTitle="Contact" textColor='#293247'/>
-            <HeaderLink linkTitle="Resume" textColor='#293247'/>
-            <HeaderLink linkTitle="Projects" textColor='#293247'/>
+            <div >
+                <HeaderLink linkTitle="Contact" textColor='#293247'/>
+                <HeaderLink linkTitle="Resume" textColor='#293247'/>
+                <HeaderLink linkTitle="Projects" textColor='#293247'/>
+            </div>
         </div>
     )
 }

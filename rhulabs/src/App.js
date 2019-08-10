@@ -3,6 +3,7 @@ import './App.css';
 
 import Screen from './components/Screen'
 import Header from './components/Header'
+import Intro from './components/Intro'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Screen backgroundColor='#ffffff' textColor='#293247'>
             <Header />
+            <Intro />
         </Screen>
         <Screen backgroundColor='#D9D9D9' textColor='#293247'>
             <h1>My, Projects</h1>
