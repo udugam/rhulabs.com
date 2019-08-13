@@ -16,9 +16,10 @@ const Header = (props) => {
         <div style={styles.container}>    
             <Logo/>
             <div >
-                <HeaderLink linkTitle="Contact" textColor='#293247'/>
-                <HeaderLink linkTitle="Resume" textColor='#293247'/>
                 <HeaderLink linkTitle="Projects" textColor='#293247'/>
+                <HeaderLink linkTitle="Content" textColor='#293247'/>
+                <HeaderLink linkTitle="Resume" textColor='#293247'/>
+                <HeaderLink linkTitle="Contact" textColor='#293247'/>
             </div>
         </div>
     )
