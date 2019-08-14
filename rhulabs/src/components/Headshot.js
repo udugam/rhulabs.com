@@ -11,7 +11,7 @@ const Headshot = (props) => {
     return(
         <div style={styles}>
             <Avatar
-                avatarStyle='Circle'
+                avatarStyle='Transparent'
                 topType='ShortHairShortFlat'
                 accessoriesType='Blank'
                 hairColor='Black'

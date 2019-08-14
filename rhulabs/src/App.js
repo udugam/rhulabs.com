@@ -3,6 +3,7 @@ import './App.css';
 
 import Screen from './components/Screen'
 import Header from './components/Header'
+import Home from './components/Home'
 import Intro from './components/Intro'
 
 class App extends Component {
@@ -11,15 +12,15 @@ class App extends Component {
       <div className="App">
         <Screen backgroundColor='#ffffff' textColor='#293247'>
             <Header />
+            <Home />
+        </Screen>
+        <Screen backgroundColor='#e9414e' textColor='#ffffff'>
             <Intro />
         </Screen>
-        <Screen backgroundColor='#D9D9D9' textColor='#293247'>
-            <h1>My, Projects</h1>
-        </Screen>
-        <Screen backgroundColor='#4484CE' textColor='#293247'>
+        <Screen backgroundColor='#ffffff' textColor='#293247'>
             <h1>Skills & Technical Background</h1>
         </Screen>
-        <Screen backgroundColor='#D9D9D9' textColor='#293247'>
+        <Screen backgroundColor='#e9414e' textColor='#ffffff'>
             <h1>My, Story</h1>
         </Screen>
       </div>
