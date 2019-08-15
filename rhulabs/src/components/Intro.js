@@ -10,7 +10,7 @@ const Intro = (props) => {
             <h3>My story as a developer started {moment("2003-9-1").toNow(true)} years 
             ago with a simple "Hello Word" output on a linux command line. These days I'm 
             fully immersed in technology and am passionate about new applications of it.
-            Weather I'm building an IOT device with an Arduino or coding an enterprise application,
+            At a given time you may find me building IOT devices from my home, building Alexa Skills, or coding an enterprise application.
             I'm dedicated to understanding how it all comes together. </h3>
         </div>
     )
