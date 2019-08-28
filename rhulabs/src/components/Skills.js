@@ -15,18 +15,22 @@ const Skills = (props) => {
     return(
         <div style={styles.container}>
             <div style={styles.listBox}>
-                <h1>Full-stack Developer</h1>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Javascript</li>
-                </ul>
-            </div>       
+                <img alt='Front End Icon' src='https://via.placeholder.com/150'/>
+                <h1>Frontend Developer</h1>
+                <div>Node.js</div>
+                <div>Node.js</div>
+            </div> 
             <div style={styles.listBox}>
+                <img alt='Back End Icon' src='https://via.placeholder.com/150'/>
+                <h1>Backend Developer</h1>
+                <div>Node.js</div>
+                <div>Node.js</div>
+            </div>        
+            <div style={styles.listBox}>
+                <img alt='Back End Icon' src='https://via.placeholder.com/150'/>
                 <h1>Mentor</h1>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Javascript</li>
-                </ul>
+                <div>Node.js</div>
+                <div>Node.js</div>
             </div>       
         </div>
     )
