@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Intro from './components/Intro'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
             <Skills/>
         </Screen>
         <Screen backgroundColor='#e9414e' textColor='#ffffff'>
-            <h1>My, Story</h1>
+            <Projects />
         </Screen>
       </div>
     );
