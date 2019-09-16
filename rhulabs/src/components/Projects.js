@@ -22,21 +22,23 @@ const Projects = (props) => {
             <div style={styles.projectBox}>
                 <h1>PK Portal</h1>
                 <div style={styles.summary}>A full stack SERN (SQL-Express-React-Node) application built to better manage the flow of information between employees of Pure Kitchens Inc.</div>
-            </div> 
+            </div>
+            <div style={styles.projectBox}>
+                <h1>Chunes</h1>
+                <div style={styles.summary}>A serverless React application built to accompany an iOS social music discovery platform</div>
+            </div>  
             <div style={styles.projectBox}>
                 <h1>Que</h1>
-                <div style={styles.summary}>An application that automates song recognition and duration for a given piece of </div>
-                <div>Node</div>
-                <div>MongoDB</div>
-                <div>mySQL</div>
-                <div>Serverless Lambda Functions</div>
+                <div style={styles.summary}>A full stack SERN (SQL-Express-React-Node) application that automates song recognition for Performance Rights Oganizations.</div>
             </div>        
             <div style={styles.projectBox}>
-                <h1>Mentor</h1>
-                <div style={styles.summary}>I genuinely care about people, and love helping fellow designers work on their craft.</div>
-                <div>Node.js</div>
-                <div>Node.js</div>
-            </div>       
+                <h1>Raptors Trivia</h1>
+                <div style={styles.summary}>An Alexa skill that asks a user 5 trivia style questions from an expanding list of questions</div>
+            </div>    
+            <div style={styles.projectBox}>
+                <h1>Garage Opener</h1>
+                <div style={styles.summary}>A React Native application that allows me to open my garage door</div>
+            </div>    
         </div>
     )
 }
