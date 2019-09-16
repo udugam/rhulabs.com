@@ -37,7 +37,7 @@ const Projects = (props) => {
             </div>    
             <div style={styles.projectBox}>
                 <h1>Garage Opener</h1>
-                <div style={styles.summary}>A React Native application that allows me to open my garage door</div>
+                <div style={styles.summary}>A React Native application that allows me to open my garage door.</div>
             </div>    
         </div>
     )
