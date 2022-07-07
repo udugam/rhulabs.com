@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "avataaars": "^1.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-icons": "^3.7.0",
